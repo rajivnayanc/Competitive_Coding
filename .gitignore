@@ -1,0 +1,5 @@
+output
+*.exe
+*.out
+Coding Blocks/
+.vscode/
