@@ -3,3 +3,5 @@ output
 *.out
 Coding Blocks/
 .vscode/
+test.cpp
+test.py
