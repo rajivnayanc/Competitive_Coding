@@ -153,14 +153,10 @@ int main(){
 		ll ans = CRT(num,rem,3);
 		
 		ll y;
-		if(b&1){
-			y = powll(b, ans, MOD - 1);
-		}else{
-			ll temp = powll(b,ans,(mod1*mod2*mod3+1));
-			ll num2[] = {2,(mod1*mod2*mod3+1)};
-			ll rem2[] = {0,temp};
-			y = CRT(num2,rem2,2);
-		}
+		ll temp = powll(b,ans,(mod1*mod2*mod3+1));
+		ll num2[] = {2,(mod1*mod2*mod3+1)};
+		ll rem2[] = {b%2,temp};
+		y = CRT(num2,rem2,2);
 		ll result = powll(a, y, MOD);
 		cout << result << "\n";
 	}
