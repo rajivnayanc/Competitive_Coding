@@ -4,3 +4,4 @@ output
 .vscode/
 test.cpp
 test.py
+temp/
