@@ -32,6 +32,10 @@ void solve(){
     
 }
 int main(){
+#ifndef ONLINE_JUDGE
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
+#endif
     FIO
     ll T;
     cin >> T;
@@ -102,6 +106,7 @@ ll gcd(ll a, ll b){
     if(a==0) return b;
     return gcd(b%a,a);
 }
+
 ll countSetBits(ll n){
     ll ans = 0;
     while(n){

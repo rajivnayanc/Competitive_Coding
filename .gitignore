@@ -1,6 +1,11 @@
+*
+!*/
+!*.*
 output
 *.exe
 *.out
+input.txt
+output.txt
 .vscode/
 test.cpp
 test.py
