@@ -5,7 +5,7 @@
 // @rajivnayanc | @rajivnayanch
 // March 27, 2021  22:30:22
 /**
- * This is a bruteforce approach. Just to pass Test Case 1. Enought o score total 30 points.  
+ * This is a bruteforce approach. Just to pass Test Case 1. Enough to score total 30 points.  
 */
 #include <bits/stdc++.h>
 #include <ext/pb_ds/assoc_container.hpp>
